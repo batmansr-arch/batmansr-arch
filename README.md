@@ -50,14 +50,14 @@ STATUS   : compiling...
 ### `> GITHUB_STATS`
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=TON_USERNAME&show_icons=true&theme=dracula&hide_border=true&bg_color=00000000" width="49%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TON_USERNAME&layout=compact&theme=dracula&hide_border=true&bg_color=00000000" width="49%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=batmansr-arch&show_icons=true&theme=dracula&hide_border=true&bg_color=00000000" width="49%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=batmansr-arch&layout=compact&theme=dracula&hide_border=true&bg_color=00000000" width="49%"/>
 </p>
 
 ### `> TROPHIES`
 
 <p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=TON_USERNAME&theme=matrix&no-frame=true&no-bg=true&margin-w=8"/>
+<img src="https://github-profile-trophy.vercel.app/?username=batmansr-arch&theme=matrix&no-frame=true&no-bg=true&margin-w=8"/>
 </p>
 
 ### `> CURRENT_MISSION`
