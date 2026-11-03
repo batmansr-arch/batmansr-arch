@@ -1,4 +1,4 @@
-
+Here's a corny .md for your GitHub profile
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=25&duration=2500&pause=800&color=00FF41&center=true&vCenter=true&width=600&lines=ACCESS+GRANTED;WELCOME+TO+MY+DOMAIN;sudo+make+me+a+sandwich" />
