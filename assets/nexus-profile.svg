@@ -73,7 +73,7 @@
   <line x1="852" y1="164" x2="1123" y2="164" class="line"/>
 
   <text x="852" y="202" class="mono" font-size="12" fill="#78909E">CALLSIGN</text>
-  <text x="852" y="230" class="mono white" font-size="22" font-weight="700">YOUR_HANDLE</text>
+  <text x="852" y="230" class="mono white" font-size="22" font-weight="700">BatmanSR</text>
 
   <text x="852" y="275" class="mono" font-size="12" fill="#78909E">PRIMARY DIRECTIVE</text>
   <text x="852" y="302" class="mono cyan" font-size="15">MAKE IT COMPILE.</text>
