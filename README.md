@@ -1,79 +1,150 @@
-Here's a corny .md for your GitHub profile
+# ⌬ SYSTEM ONLINE — WELCOME TO MY DOMAIN
+
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=25&duration=2500&pause=800&color=00FF41&center=true&vCenter=true&width=600&lines=ACCESS+GRANTED;WELCOME+TO+MY+DOMAIN;sudo+make+me+a+sandwich" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=650&lines=Fullstack+Engineer;Rust+Enthusiast;AI+%26+LLM+Researcher;Building+things+that+shouldn't+exist." />
 
-```text
- _   _ _____ _____   _____ _   _ _____ _____
-| | | |  ___|_   _| |  ___| | | |  ___| ____|
-| |_| | |_    | |   | |__ | | | | |_  |  _|
-|  _  |  _|   | |   |  __|| | | |  _| | |___
-|_| |_|_|     |_|   |_|   |_| |_|_|   |_____|
+<br/>
 
-          [ SYSTEM ONLINE ]
-```
+**`[ FULLSTACK ENGINEER ]` · `[ RUST ENJOYER ]` · `[ AI / LLM ENTHUSIAST ]`**
 
-`root@github:~$ whoami`
+*"I don't just write code. I negotiate with machines."*
 
-**just another unix enthusiast.**
+<br/>
 
-Linux • Low-level • Networking • Open Source
+[![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
+[![Rust](https://img.shields.io/badge/Rust-0d1117?style=for-the-badge&logo=rust&logoColor=orange)](https://www.rust-lang.org/)
+[![AI](https://img.shields.io/badge/Artificial_Intelligence-0d1117?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com/)
 
 </div>
 
 ---
 
-### `> ABOUT_ME`
+## `01` — WHOAMI
 
-```bash
-$ cat about.txt
+```rust
+struct Developer {
+    alias: &'static str,
+    role: &'static str,
+    specialization: Vec<&'static str>,
+    philosophy: &'static str,
+}
 
-OS       : Linux
-SHELL    : bash / zsh
-EDITOR   : neovim
-FOCUS    : low-level, systems, networking
-STATUS   : compiling...
+fn main() {
+    let me = Developer {
+        alias: "YOUR_USERNAME",
+        role: "Fullstack Engineer",
+        specialization: vec![
+            "Web Engineering",
+            "Systems Programming",
+            "Machine Learning",
+            "LLM Architecture",
+        ],
+        philosophy: "If it compiles, it ships.",
+    };
+}
 ```
 
-### `> TECH_STACK`
+I'm a fullstack developer obsessed with building performant, scalable and occasionally unnecessarily complex systems.
 
-<p align="center">
-<img src="https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=00FF41"/>
-<img src="https://img.shields.io/badge/Arch-1793D1?style=for-the-badge&logo=archlinux&logoColor=white"/>
-<img src="https://img.shields.io/badge/Bash-000000?style=for-the-badge&logo=gnubash&logoColor=00FF41"/>
-<img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=yellow"/>
-<img src="https://img.shields.io/badge/C-000000?style=for-the-badge&logo=c&logoColor=blue"/>
-<img src="https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=red"/>
-<img src="https://img.shields.io/badge/Neovim-000000?style=for-the-badge&logo=neovim&logoColor=57A143"/>
-</p>
+My interests live somewhere between low-level systems engineering, modern web architecture and artificial intelligence.
 
-### `> GITHUB_STATS`
+I enjoy understanding how things work beneath the abstraction layer — and then building another abstraction layer on top of it.
 
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=batmansr-arch&show_icons=true&theme=dracula&hide_border=true&bg_color=00000000" width="49%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=batmansr-arch&layout=compact&theme=dracula&hide_border=true&bg_color=00000000" width="49%"/>
-</p>
+**Current objectives:**
+- Architecting modern web applications.
+- Exploring the Rust ecosystem and systems programming.
+- Experimenting with LLMs, neural networks and model architectures.
+- Making JavaScript behave like a respectable programming language.
 
-### `> TROPHIES`
+---
 
-<p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=batmansr-arch&theme=matrix&no-frame=true&no-bg=true&margin-w=8"/>
-</p>
+## `02` — TECHNICAL ARSENAL
 
-### `> CURRENT_MISSION`
+<div align="center">
 
-```bash
-[+] Learning new things
-[+] Building cool projects
-[+] Exploring GNU/Linux
-[+] Breaking my own configs
-[-] Touching grass
-```
+### ◈ FRONTEND / WEB ENGINEERING
 
-### `> END_OF_TRANSMISSION`
+<img src="https://skillicons.dev/icons?i=react,nextjs,js,ts,html,css,tailwind,vite" />
 
-```text
-Connection terminated.
-See you in /dev/null.
-```
+### ◈ BACKEND / SYSTEMS
 
+<img src="https://skillicons.dev/icons?i=rust,nodejs,express,python,postgres,redis,docker,linux" />
+
+### ◈ MACHINE LEARNING / AI
+
+<img src="https://skillicons.dev/icons?i=pytorch,python" />
+
+</div>
+
+**Areas of interest**
+
+| Domain | Focus |
+|---|---|
+| Web Engineering | React, Next.js, TypeScript |
+| Systems | Rust, performance, memory safety |
+| Backend | APIs, databases, distributed systems |
+| AI / ML | PyTorch, neural networks, LLMs |
+| Infrastructure | Linux, Docker, deployment |
+
+---
+
+## `03` — CURRENT RESEARCH
+
+research:
+  - name: "LLM Systems"
+    status: "ONGOING"
+    interest: "Understanding intelligence, one tensor at a time."
+
+  - name: "Rust Ecosystem"
+    status: "OBSESSION"
+    interest: "Zero-cost abstractions. Zero compromises."
+
+  - name: "Fullstack Architecture"
+    status: "DEPLOYING"
+    interest: "From pixels to production."
+
+  - name: "Neural Networks"
+    status: "EXPERIMENTAL"
+    interest: "Teaching silicon how to think."
+
+
+---
+
+## `04` — DEVELOPER PHILOSOPHY
+
+> "Any sufficiently advanced engineering is indistinguishable from overengineering."
+
+- Performance is a feature.
+- Abstractions should be earned.
+- Memory safety is not optional.
+- Documentation is a love letter to your future self.
+- If the solution requires 14 microservices, perhaps it requires one function.
+
+---
+
+## `05` — GITHUB ACTIVITY
+
+<div align="center">
+
+<img width="95%" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=transparent&hide_border=true&title_color=00F7FF&icon_color=00F7FF&text_color=9CA3AF&bg_color=00000000" />
+
+<img width="95%" src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=transparent&hide_border=true&ring=00F7FF&fire=00F7FF&currStreakLabel=00F7FF" />
+
+<img width="95%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=transparent&hide_border=true&title_color=00F7FF&text_color=9CA3AF" />
+
+</div>
+
+---
+
+<div align="center">
+
+### `END OF TRANSMISSION`
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:001f29,100:00F7FF&height=120&section=footer" />
+
+**`[ SYSTEM STATUS: OPERATIONAL ]`**
+
+<sub>Built with caffeine, questionable architectural decisions and an unreasonable amount of Rust.</sub>
+
+</div>
