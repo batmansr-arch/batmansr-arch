@@ -1,6 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1120" viewBox="0 0 1200 1120" role="img" aria-labelledby="title desc">
   <title id="title">NEXUS — developer profile</title>
   <desc id="desc">A fictional cyber-terminal profile for a fullstack, Rust and AI enthusiast.</desc>
+
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#070B12"/>
@@ -21,7 +23,10 @@
     </pattern>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
     <style>
       .mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',monospace}
@@ -32,16 +37,19 @@
       .tiny{font-size:11px;letter-spacing:2px}
       .label{font-size:12px;letter-spacing:2.2px}
       .line{stroke:#24404B;stroke-width:1}
+      .body{font-size:12px;fill:#B6C9D0}
+      .bullet{fill:#56E8DB;font-size:15px}
     </style>
   </defs>
 
-  <rect width="1200" height="760" rx="22" fill="url(#bg)"/>
-  <rect width="1200" height="760" rx="22" fill="url(#grid)"/>
-  <path d="M0 180H1200M0 615H1200" stroke="#1B3440" opacity=".6"/>
+  <!-- BACKGROUND -->
+  <rect width="1200" height="1120" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="1120" rx="22" fill="url(#grid)"/>
+  <path d="M0 180H1200M0 990H1200" stroke="#1B3440" opacity=".6"/>
   <path d="M920 0L1200 0L1200 260Z" fill="#12323B" opacity=".16"/>
-  <path d="M0 570L260 760H0Z" fill="#0C3540" opacity=".18"/>
+  <path d="M0 900L260 1120H0Z" fill="#0C3540" opacity=".18"/>
 
-  <!-- Top bar -->
+  <!-- TOP BAR -->
   <rect x="30" y="26" width="1140" height="48" rx="9" fill="#0C1721" stroke="#24404B"/>
   <circle cx="54" cy="50" r="5" fill="#FF6B72"/>
   <circle cx="73" cy="50" r="5" fill="#E6C46A"/>
@@ -50,59 +58,122 @@
   <text x="930" y="55" class="mono tiny cyan">SESSION ESTABLISHED</text>
   <circle cx="1143" cy="50" r="4" fill="#56E8DB" filter="url(#glow)"/>
 
-  <!-- Hero -->
+  <!-- HERO -->
   <text x="58" y="126" class="mono tiny cyan">[ IDENTITY RECORD // 001 ]</text>
   <text x="54" y="216" class="sans white" font-size="76" font-weight="800" letter-spacing="-3">BUILDING</text>
   <text x="54" y="296" class="sans" font-size="76" font-weight="800" letter-spacing="-3" fill="url(#cyan)">BEYOND</text>
   <text x="54" y="376" class="sans white" font-size="76" font-weight="800" letter-spacing="-3">ABSTRACTION.</text>
   <rect x="58" y="404" width="62" height="3" rx="2" fill="url(#cyan)"/>
-  <text x="58" y="444" class="mono" font-size="16" fill="#B6C9D0">FULLSTACK ENGINEERING  /  RUST  /  MACHINE INTELLIGENCE</text>
-  <text x="58" y="477" class="mono" font-size="13" fill="#78909E">I turn caffeine, curiosity and questionable scope into software.</text>
+  <text x="58" y="444" class="mono" font-size="16" fill="#B6C9D0">FULLSTACK ENGINEERING / RUST / MACHINE INTELLIGENCE</text>
+  <text x="58" y="477" class="mono" font-size="13" fill="#78909E">Engineering systems beyond conventional limits.</text>
 
-  <!-- Right-side status module -->
+  <!-- OPERATOR STATUS -->
   <rect x="825" y="112" width="325" height="365" rx="14" fill="url(#panel)" stroke="#28505A"/>
   <text x="852" y="148" class="mono tiny cyan">OPERATOR STATUS</text>
   <line x1="852" y1="164" x2="1123" y2="164" class="line"/>
+
   <text x="852" y="202" class="mono" font-size="12" fill="#78909E">CALLSIGN</text>
   <text x="852" y="230" class="mono white" font-size="22" font-weight="700">YOUR_HANDLE</text>
+
   <text x="852" y="275" class="mono" font-size="12" fill="#78909E">PRIMARY DIRECTIVE</text>
   <text x="852" y="302" class="mono cyan" font-size="15">MAKE IT COMPILE.</text>
   <text x="852" y="326" class="mono cyan" font-size="15">THEN MAKE IT FAST.</text>
+
   <line x1="852" y1="350" x2="1123" y2="350" class="line"/>
   <text x="852" y="381" class="mono" font-size="11" fill="#78909E">CURRENT MODE</text>
+
   <rect x="852" y="395" width="271" height="34" rx="5" fill="#102D32" stroke="#286A69"/>
   <circle cx="870" cy="412" r="4" fill="#56E8DB" filter="url(#glow)"/>
   <text x="884" y="416" class="mono" font-size="11" fill="#8CF4E8">OVERENGINEERING / ENABLED</text>
   <text x="852" y="455" class="mono" font-size="10" fill="#607987">DISCLAIMER: DRAMATIC TERMINOLOGY DETECTED.</text>
 
-  <!-- Capability panels -->
-  <text x="58" y="548" class="mono tiny cyan">[ TECHNICAL DOMAINS ]</text>
+  <!-- AWARDS & ACHIEVEMENTS -->
+  <rect x="58" y="520" width="1084" height="160" rx="12" fill="url(#panel)" stroke="#28505A"/>
+  <text x="84" y="555" class="mono tiny cyan">[ 01 // AWARDS &amp; ACHIEVEMENTS ]</text>
+  <text x="1108" y="555" text-anchor="end" class="mono tiny muted">RECOGNITION RECORD</text>
+  <line x1="84" y1="572" x2="1116" y2="572" class="line"/>
+
+  <text x="88" y="607" class="bullet">✦</text>
+  <text x="112" y="607" class="mono body">Recipient of multiple awards in Machine Learning.</text>
+
+  <text x="88" y="638" class="bullet">✦</text>
+  <text x="112" y="638" class="mono body">Recognized for contributions to neural architecture research.</text>
+
+  <text x="620" y="607" class="bullet">✦</text>
+  <text x="644" y="607" class="mono body">Award-winning experimental work in computational intelligence.</text>
+
+  <text x="620" y="638" class="bullet">✦</text>
+  <text x="644" y="638" class="mono body">Internationally recognized interest in systems engineering.</text>
+
+  <!-- RESEARCH & AI -->
+  <rect x="58" y="704" width="524" height="216" rx="12" fill="url(#panel)" stroke="#28505A"/>
+  <text x="84" y="741" class="mono tiny cyan">[ 02 // RESEARCH &amp; AI ]</text>
+  <text x="84" y="763" class="mono tiny muted">RESEARCH DIVISION</text>
+  <line x1="84" y1="779" x2="556" y2="779" class="line"/>
+
+  <text x="88" y="809" class="bullet">›</text>
+  <text x="108" y="809" class="mono body">Exploring the boundaries of artificial intelligence.</text>
+
+  <text x="88" y="839" class="bullet">›</text>
+  <text x="108" y="839" class="mono body">Experimental research in large-scale neural</text>
+  <text x="108" y="856" class="mono body">architectures.</text>
+
+  <text x="88" y="881" class="bullet">›</text>
+  <text x="108" y="881" class="mono body">Systems programming meets machine intelligence.</text>
+
+  <text x="88" y="907" class="bullet">›</text>
+  <text x="108" y="907" class="mono body">Investigating emergent behavior in transformers.</text>
+
+  <!-- ENGINEERING EGO -->
+  <rect x="618" y="704" width="524" height="216" rx="12" fill="url(#panel)" stroke="#28505A"/>
+  <text x="644" y="741" class="mono tiny cyan">[ 03 // ENGINEERING EGO ]</text>
+  <text x="644" y="763" class="mono tiny muted">ENGINEERING RECORD</text>
+  <line x1="644" y1="779" x2="1116" y2="779" class="line"/>
+
+  <text x="648" y="809" class="bullet">›</text>
+  <text x="668" y="809" class="mono body">Designed high-performance systems from first principles.</text>
+
+  <text x="648" y="839" class="bullet">›</text>
+  <text x="668" y="839" class="mono body">Obsessed with zero-cost abstractions and efficiency.</text>
+
+  <text x="648" y="869" class="bullet">›</text>
+  <text x="668" y="869" class="mono body">Turning theoretical complexity into production systems.</text>
+
+  <text x="648" y="899" class="bullet">›</text>
+  <text x="668" y="899" class="mono body">Architecting solutions before the problem even exists.</text>
+
+  <!-- TECHNICAL DOMAINS -->
+  <text x="58" y="960" class="mono tiny cyan">[ 04 // TECHNICAL DOMAINS ]</text>
+
   <g>
-    <rect x="58" y="568" width="250" height="126" rx="10" fill="url(#panel)" stroke="#24404B"/>
-    <text x="80" y="599" class="mono tiny cyan">01 / WEB SYSTEMS</text>
-    <text x="80" y="638" class="sans white" font-size="25" font-weight="700">React · JS</text>
-    <text x="80" y="666" class="mono" font-size="11" fill="#78909E">Interfaces to production.</text>
-  </g>
-  <g>
-    <rect x="326" y="568" width="250" height="126" rx="10" fill="url(#panel)" stroke="#24404B"/>
-    <text x="348" y="599" class="mono tiny cyan">02 / SYSTEMS</text>
-    <text x="348" y="638" class="sans white" font-size="25" font-weight="700">Rust</text>
-    <text x="348" y="666" class="mono" font-size="11" fill="#78909E">Fear the borrow checker.</text>
-  </g>
-  <g>
-    <rect x="594" y="568" width="250" height="126" rx="10" fill="url(#panel)" stroke="#24404B"/>
-    <text x="616" y="599" class="mono tiny cyan">03 / INTELLIGENCE</text>
-    <text x="616" y="638" class="sans white" font-size="25" font-weight="700">PyTorch · LLMs</text>
-    <text x="616" y="666" class="mono" font-size="11" fill="#78909E">Tensors all the way down.</text>
-  </g>
-  <g>
-    <rect x="862" y="568" width="288" height="126" rx="10" fill="url(#panel)" stroke="#24404B"/>
-    <text x="884" y="599" class="mono tiny cyan">04 / PHILOSOPHY</text>
-    <text x="884" y="636" class="sans white" font-size="19" font-weight="700">SCOPE CREEP</text>
-    <text x="884" y="660" class="sans white" font-size="19" font-weight="700">IS A FEATURE.</text>
-    <text x="884" y="681" class="mono" font-size="10" fill="#78909E">— DEFINITELY NOT A WARNING SIGN</text>
+    <rect x="58" y="978" width="250" height="100" rx="10" fill="url(#panel)" stroke="#24404B"/>
+    <text x="80" y="1007" class="mono tiny cyan">01 / WEB SYSTEMS</text>
+    <text x="80" y="1042" class="sans white" font-size="25" font-weight="700">React · JS</text>
+    <text x="80" y="1063" class="mono" font-size="11" fill="#78909E">Interfaces to production.</text>
   </g>
 
-  <text x="58" y="731" class="mono" font-size="10" fill="#58717D">NEXUS LABS  //  ALL SYSTEMS NOMINALLY OPERATIONAL</text>
-  <text x="1148" y="731" text-anchor="end" class="mono" font-size="10" fill="#58717D">EST. 20XX</text>
+  <g>
+    <rect x="326" y="978" width="250" height="100" rx="10" fill="url(#panel)" stroke="#24404B"/>
+    <text x="348" y="1007" class="mono tiny cyan">02 / SYSTEMS</text>
+    <text x="348" y="1042" class="sans white" font-size="25" font-weight="700">Rust</text>
+    <text x="348" y="1063" class="mono" font-size="11" fill="#78909E">Fear the borrow checker.</text>
+  </g>
+
+  <g>
+    <rect x="594" y="978" width="250" height="100" rx="10" fill="url(#panel)" stroke="#24404B"/>
+    <text x="616" y="1007" class="mono tiny cyan">03 / INTELLIGENCE</text>
+    <text x="616" y="1042" class="sans white" font-size="25" font-weight="700">PyTorch · LLMs</text>
+    <text x="616" y="1063" class="mono" font-size="11" fill="#78909E">Tensors all the way down.</text>
+  </g>
+
+  <g>
+    <rect x="862" y="978" width="280" height="100" rx="10" fill="url(#panel)" stroke="#24404B"/>
+    <text x="884" y="1007" class="mono tiny cyan">04 / PHILOSOPHY</text>
+    <text x="884" y="1040" class="sans white" font-size="19" font-weight="700">SCOPE CREEP IS</text>
+    <text x="884" y="1062" class="sans white" font-size="19" font-weight="700">A FEATURE.</text>
+  </g>
+
+  <!-- FOOTER -->
+  <text x="58" y="1105" class="mono" font-size="10" fill="#58717D">NEXUS LABS // ALL SYSTEMS NOMINALLY OPERATIONAL</text>
+  <text x="1142" y="1105" text-anchor="end" class="mono" font-size="10" fill="#58717D">EST. 20XX</text>
 </svg>
