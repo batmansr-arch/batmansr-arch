@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">NEXUS — developer profile</title>
+  <desc id="desc">A fictional cyber-terminal profile for a fullstack, Rust and AI enthusiast.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070B12"/>
+      <stop offset=".55" stop-color="#0A111B"/>
+      <stop offset="1" stop-color="#07151B"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#35F3E0"/>
+      <stop offset="1" stop-color="#4AB8FF"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#101D29" stop-opacity=".96"/>
+      <stop offset="1" stop-color="#0B141E" stop-opacity=".96"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#18303A" stroke-width="1" opacity=".42"/>
+      <circle cx="0" cy="0" r="1.2" fill="#38DCCF" opacity=".35"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',monospace}
+      .sans{font-family:Inter,Arial,sans-serif}
+      .muted{fill:#78909E}
+      .cyan{fill:#56E8DB}
+      .white{fill:#EAF7FA}
+      .tiny{font-size:11px;letter-spacing:2px}
+      .label{font-size:12px;letter-spacing:2.2px}
+      .line{stroke:#24404B;stroke-width:1}
+    </style>
+  </defs>
+
+  <rect width="1200" height="760" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="760" rx="22" fill="url(#grid)"/>
+  <path d="M0 180H1200M0 615H1200" stroke="#1B3440" opacity=".6"/>
+  <path d="M920 0L1200 0L1200 260Z" fill="#12323B" opacity=".16"/>
+  <path d="M0 570L260 760H0Z" fill="#0C3540" opacity=".18"/>
+
+  <!-- Top bar -->
+  <rect x="30" y="26" width="1140" height="48" rx="9" fill="#0C1721" stroke="#24404B"/>
+  <circle cx="54" cy="50" r="5" fill="#FF6B72"/>
+  <circle cx="73" cy="50" r="5" fill="#E6C46A"/>
+  <circle cx="92" cy="50" r="5" fill="#55E6D8"/>
+  <text x="118" y="55" class="mono tiny muted">NEXUS://PROFILE/ROOT</text>
+  <text x="930" y="55" class="mono tiny cyan">SESSION ESTABLISHED</text>
+  <circle cx="1143" cy="50" r="4" fill="#56E8DB" filter="url(#glow)"/>
+
+  <!-- Hero -->
+  <text x="58" y="126" class="mono tiny cyan">[ IDENTITY RECORD // 001 ]</text>
+  <text x="54" y="216" class="sans white" font-size="76" font-weight="800" letter-spacing="-3">BUILDING</text>
+  <text x="54" y="296" class="sans" font-size="76" font-weight="800" letter-spacing="-3" fill="url(#cyan)">BEYOND</text>
+  <text x="54" y="376" class="sans white" font-size="76" font-weight="800" letter-spacing="-3">ABSTRACTION.</text>
+  <rect x="58" y="404" width="62" height="3" rx="2" fill="url(#cyan)"/>
+  <text x="58" y="444" class="mono" font-size="16" fill="#B6C9D0">FULLSTACK ENGINEERING  /  RUST  /  MACHINE INTELLIGENCE</text>
+  <text x="58" y="477" class="mono" font-size="13" fill="#78909E">I turn caffeine, curiosity and questionable scope into software.</text>
+
+  <!-- Right-side status module -->
+  <rect x="825" y="112" width="325" height="365" rx="14" fill="url(#panel)" stroke="#28505A"/>
+  <text x="852" y="148" class="mono tiny cyan">OPERATOR STATUS</text>
+  <line x1="852" y1="164" x2="1123" y2="164" class="line"/>
+  <text x="852" y="202" class="mono" font-size="12" fill="#78909E">CALLSIGN</text>
+  <text x="852" y="230" class="mono white" font-size="22" font-weight="700">YOUR_HANDLE</text>
+  <text x="852" y="275" class="mono" font-size="12" fill="#78909E">PRIMARY DIRECTIVE</text>
+  <text x="852" y="302" class="mono cyan" font-size="15">MAKE IT COMPILE.</text>
+  <text x="852" y="326" class="mono cyan" font-size="15">THEN MAKE IT FAST.</text>
+  <line x1="852" y1="350" x2="1123" y2="350" class="line"/>
+  <text x="852" y="381" class="mono" font-size="11" fill="#78909E">CURRENT MODE</text>
+  <rect x="852" y="395" width="271" height="34" rx="5" fill="#102D32" stroke="#286A69"/>
+  <circle cx="870" cy="412" r="4" fill="#56E8DB" filter="url(#glow)"/>
+  <text x="884" y="416" class="mono" font-size="11" fill="#8CF4E8">OVERENGINEERING / ENABLED</text>
+  <text x="852" y="455" class="mono" font-size="10" fill="#607987">DISCLAIMER: DRAMATIC TERMINOLOGY DETECTED.</text>
+
+  <!-- Capability panels -->
+  <text x="58" y="548" class="mono tiny cyan">[ TECHNICAL DOMAINS ]</text>
+  <g>
+    <rect x="58" y="568" width="250" height="126" rx="10" fill="url(#panel)" stroke="#24404B"/>
+    <text x="80" y="599" class="mono tiny cyan">01 / WEB SYSTEMS</text>
+    <text x="80" y="638" class="sans white" font-size="25" font-weight="700">React · JS</text>
+    <text x="80" y="666" class="mono" font-size="11" fill="#78909E">Interfaces to production.</text>
+  </g>
+  <g>
+    <rect x="326" y="568" width="250" height="126" rx="10" fill="url(#panel)" stroke="#24404B"/>
+    <text x="348" y="599" class="mono tiny cyan">02 / SYSTEMS</text>
+    <text x="348" y="638" class="sans white" font-size="25" font-weight="700">Rust</text>
+    <text x="348" y="666" class="mono" font-size="11" fill="#78909E">Fear the borrow checker.</text>
+  </g>
+  <g>
+    <rect x="594" y="568" width="250" height="126" rx="10" fill="url(#panel)" stroke="#24404B"/>
+    <text x="616" y="599" class="mono tiny cyan">03 / INTELLIGENCE</text>
+    <text x="616" y="638" class="sans white" font-size="25" font-weight="700">PyTorch · LLMs</text>
+    <text x="616" y="666" class="mono" font-size="11" fill="#78909E">Tensors all the way down.</text>
+  </g>
+  <g>
+    <rect x="862" y="568" width="288" height="126" rx="10" fill="url(#panel)" stroke="#24404B"/>
+    <text x="884" y="599" class="mono tiny cyan">04 / PHILOSOPHY</text>
+    <text x="884" y="636" class="sans white" font-size="19" font-weight="700">SCOPE CREEP</text>
+    <text x="884" y="660" class="sans white" font-size="19" font-weight="700">IS A FEATURE.</text>
+    <text x="884" y="681" class="mono" font-size="10" fill="#78909E">— DEFINITELY NOT A WARNING SIGN</text>
+  </g>
+
+  <text x="58" y="731" class="mono" font-size="10" fill="#58717D">NEXUS LABS  //  ALL SYSTEMS NOMINALLY OPERATIONAL</text>
+  <text x="1148" y="731" text-anchor="end" class="mono" font-size="10" fill="#58717D">EST. 20XX</text>
+</svg>

@@ -1,137 +1,68 @@
-# ⌬ SYSTEM ONLINE — WELCOME TO MY DOMAIN
-
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=650&lines=Fullstack+Engineer;Rust+Enthusiast;AI+%26+LLM+Researcher;Building+things+that+shouldn't+exist." />
+<img src="./assets/nexus-profile.svg" width="100%" alt="NEXUS — developer profile"/>
 
 <br/>
 
-**`[ FULLSTACK ENGINEER ]` · `[ RUST ENJOYER ]` · `[ AI / LLM ENTHUSIAST ]`**
-
-*"I don't just write code. I negotiate with machines."*
-
-<br/>
-
-[![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
-[![Rust](https://img.shields.io/badge/Rust-0d1117?style=for-the-badge&logo=rust&logoColor=orange)](https://www.rust-lang.org/)
-[![AI](https://img.shields.io/badge/Artificial_Intelligence-0d1117?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com/)
+[![Rust](https://img.shields.io/badge/RUST-0B1118?style=flat-square&logo=rust&logoColor=F4A460)](https://www.rust-lang.org/)
+[![React](https://img.shields.io/badge/REACT-0B1118?style=flat-square&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![JavaScript](https://img.shields.io/badge/JAVASCRIPT-0B1118?style=flat-square&logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![PyTorch](https://img.shields.io/badge/PYTORCH-0B1118?style=flat-square&logo=pytorch&logoColor=EE4C2C)](https://pytorch.org/)
+[![Linux](https://img.shields.io/badge/LINUX-0B1118?style=flat-square&logo=linux&logoColor=FCC624)](https://www.kernel.org/)
 
 </div>
 
 ---
 
-## `01` — WHOAMI
+### `01 // OPERATOR LOG`
 
-```rust
-struct Developer {
-    alias: &'static str,
-    role: &'static str,
-    specialization: Vec<&'static str>,
-    philosophy: &'static str,
-}
+```text
+> boot_sequence --verbose
 
-fn main() {
-    let me = Developer {
-        alias: "YOUR_USERNAME",
-        role: "Fullstack Engineer",
-        specialization: vec![
-            "Web Engineering",
-            "Systems Programming",
-            "Machine Learning",
-            "LLM Architecture",
-        ],
-        philosophy: "If it compiles, it ships.",
-    };
-}
+[ OK ]  frontend subsystems ........ initialized
+[ OK ]  backend services ........... responding
+[ OK ]  rust toolchain ............. emotionally stable*
+[ OK ]  neural experiments ......... probably converging
+[WARN]  project scope .............. expanding
+[WARN]  sleep schedule ............. not found
+
+* stability not guaranteed.
 ```
 
-I'm a fullstack developer obsessed with building performant, scalable and occasionally unnecessarily complex systems.
+I build across the stack, from interfaces to backend systems, and spend an unreasonable amount of time thinking about performance, architecture and machine intelligence.
 
-My interests live somewhere between low-level systems engineering, modern web architecture and artificial intelligence.
+My current rabbit holes:
 
-I enjoy understanding how things work beneath the abstraction layer — and then building another abstraction layer on top of it.
+- **Web:** React, JavaScript / TypeScript, modern frontend architecture.
+- **Systems:** Rust, memory safety, performance and the occasional fight with the borrow checker.
+- **AI:** PyTorch, neural networks, LLMs and model experimentation.
+- **Infrastructure:** Linux, Docker, APIs and making deployments behave.
 
-**Current objectives:**
-- Architecting modern web applications.
-- Exploring the Rust ecosystem and systems programming.
-- Experimenting with LLMs, neural networks and model architectures.
-- Making JavaScript behave like a respectable programming language.
+### `02 // ACTIVE DIRECTIVES`
 
----
+| Priority | Directive | Status |
+|:--:|---|---|
+| `P0` | Build things worth maintaining | `ONGOING` |
+| `P1` | Make systems faster than strictly necessary | `OBSESSION` |
+| `P2` | Understand what happens beneath the abstraction | `IN PROGRESS` |
+| `P3` | Rewrite it in Rust | `INEVITABLE` |
 
-## `02` — TECHNICAL ARSENAL
+### `03 // CORE BELIEFS`
 
-<div align="center">
-
-### ◈ FRONTEND / WEB ENGINEERING
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,js,ts,html,css,tailwind,vite" />
-
-### ◈ BACKEND / SYSTEMS
-
-<img src="https://skillicons.dev/icons?i=rust,nodejs,express,python,postgres,redis,docker,linux" />
-
-### ◈ MACHINE LEARNING / AI
-
-<img src="https://skillicons.dev/icons?i=pytorch,python" />
-
-</div>
-
-**Areas of interest**
-
-| Domain | Focus |
-|---|---|
-| Web Engineering | React, Next.js, TypeScript |
-| Systems | Rust, performance, memory safety |
-| Backend | APIs, databases, distributed systems |
-| AI / ML | PyTorch, neural networks, LLMs |
-| Infrastructure | Linux, Docker, deployment |
-
----
-
-## `03` — CURRENT RESEARCH
-
-research:
-  - name: "LLM Systems"
-    status: "ONGOING"
-    interest: "Understanding intelligence, one tensor at a time."
-
-  - name: "Rust Ecosystem"
-    status: "OBSESSION"
-    interest: "Zero-cost abstractions. Zero compromises."
-
-  - name: "Fullstack Architecture"
-    status: "DEPLOYING"
-    interest: "From pixels to production."
-
-  - name: "Neural Networks"
-    status: "EXPERIMENTAL"
-    interest: "Teaching silicon how to think."
-
-
----
-
-## `04` — DEVELOPER PHILOSOPHY
-
-> "Any sufficiently advanced engineering is indistinguishable from overengineering."
+> “Any sufficiently complex side project eventually becomes infrastructure.”
 
 - Performance is a feature.
-- Abstractions should be earned.
-- Memory safety is not optional.
-- Documentation is a love letter to your future self.
-- If the solution requires 14 microservices, perhaps it requires one function.
+- The borrow checker is a mentor. A hostile one.
+- A clean architecture is worth the initial overengineering.
+- If it can be automated, it will be automated.
+- The best documentation is the documentation you actually write.
 
----
-
-## `05` — GITHUB ACTIVITY
+### `04 // TELEMETRY`
 
 <div align="center">
 
-<img width="95%" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=transparent&hide_border=true&title_color=00F7FF&icon_color=00F7FF&text_color=9CA3AF&bg_color=00000000" />
-
-<img width="95%" src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=transparent&hide_border=true&ring=00F7FF&fire=00F7FF&currStreakLabel=00F7FF" />
-
-<img width="95%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=transparent&hide_border=true&title_color=00F7FF&text_color=9CA3AF" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&hide_border=true&bg_color=0B1118&title_color=56E8DB&icon_color=56E8DB&text_color=B6C9D0&rank_icon=github" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&hide_border=true&bg_color=0B1118&title_color=56E8DB&text_color=B6C9D0" />
 
 </div>
 
@@ -139,12 +70,8 @@ research:
 
 <div align="center">
 
-### `END OF TRANSMISSION`
+`END OF TRANSMISSION` · `NEXUS LABS` · `BUILD / BREAK / REPEAT`
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:001f29,100:00F7FF&height=120&section=footer" />
-
-**`[ SYSTEM STATUS: OPERATIONAL ]`**
-
-<sub>Built with caffeine, questionable architectural decisions and an unreasonable amount of Rust.</sub>
+<sub>Fueled by caffeine, curiosity, and an architecturally concerning number of abstractions.</sub>
 
 </div>
